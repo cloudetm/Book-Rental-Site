@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Subscriprion_Plans>
+
+	<subscription id="101">
+		<name>Occasional Reader</name>
+		<per_derlivery>1</per_derlivery>
+		<duration>3</duration>
+		<deliveries>3</deliveries>
+		<total_books>3</total_books>
+		<membership_fee>200</membership_fee>
+		<delivery_charges>50</delivery_charges>
+		<refundable_security>250</refundable_security>
+		<subscription_fee>360</subscription_fee>
+		<suitable_for></suitable_for>
+		<max_magazines>1</max_magazines>		
+	</subscription>
+	
+	<subscription id="102">
+		<name>Occasional Reader</name>
+		<per_derlivery>1</per_derlivery>
+		<duration>6</duration>
+		<deliveries>6</deliveries>
+		<total_books>6</total_books>
+		<membership_fee>200</membership_fee>
+		<delivery_charges>50</delivery_charges>
+		<refundable_security>250</refundable_security>
+		<subscription_fee>700</subscription_fee>
+		<suitable_for></suitable_for>
+		<max_magazines>2</max_magazines>		
+	</subscription>
+	
+	<subscription id="103">
+		<name>Occasional Reader</name>
+		<per_derlivery>1</per_derlivery>
+		<duration>12</duration>
+		<deliveries>12</deliveries>
+		<total_books>12</total_books>
+		<membership_fee>200</membership_fee>
+		<delivery_charges>250</delivery_charges>
+		<refundable_security>250</refundable_security>
+		<subscription_fee>1260</subscription_fee>
+		<suitable_for></suitable_for>
+		<max_magazines>4</max_magazines>		
+	</subscription>
+	
+	<subscription id="104">
+		<name>Casual Reader</name>
+		<per_derlivery>2</per_derlivery>
+		<duration>3</duration>
+		<deliveries>3</deliveries>
+		<total_books>6</total_books>
+		<membership_fee>200</membership_fee>
+		<delivery_charges>50</delivery_charges>
+		<refundable_security>500</refundable_security>
+		<subscription_fee>690</subscription_fee>
+		<suitable_for></suitable_for>
+		<max_magazines>1</max_magazines>		
+	</subscription>
+	
+	<subscription id="105">
+		<name>Casual Reader</name>
+		<per_derlivery>2</per_derlivery>
+		<duration>6</duration>
+		<deliveries>6</deliveries>
+		<total_books>12</total_books>
+		<membership_fee>200</membership_fee>
+		<delivery_charges>50</delivery_charges>
+		<refundable_security>500</refundable_security>
+		<subscription_fee>1310</subscription_fee>
+		<suitable_for></suitable_for>
+		<max_magazines>2</max_magazines>		
+	</subscription>
+	
+	<subscription id="106">
+		<name>Casual Reader</name>
+		<per_derlivery>2</per_derlivery>
+		<duration>12</duration>
+		<deliveries>12</deliveries>
+		<total_books>24</total_books>
+		<membership_fee>200</membership_fee>
+		<delivery_charges>50</delivery_charges>
+		<refundable_security>500</refundable_security>
+		<subscription_fee>2480</subscription_fee>
+		<suitable_for></suitable_for>
+		<max_magazines>4</max_magazines>		
+	</subscription>
+	
+	<subscription id="107">
+		<name>Regular Reader</name>
+		<per_derlivery>3</per_derlivery>
+		<duration>3</duration>
+		<deliveries>3</deliveries>
+		<total_books>9</total_books>
+		<membership_fee>200</membership_fee>
+		<delivery_charges>50</delivery_charges>
+		<refundable_security>750</refundable_security>
+		<subscription_fee>990</subscription_fee>
+		<suitable_for></suitable_for>
+		<max_magazines>2</max_magazines>		
+	</subscription>
+	
+	<subscription id="108">
+		<name>Regular Reader</name>
+		<per_derlivery>3</per_derlivery>
+		<duration>6</duration>
+		<deliveries>6</deliveries>
+		<total_books>18</total_books>
+		<membership_fee>200</membership_fee>
+		<delivery_charges>50</delivery_charges>
+		<refundable_security>750</refundable_security>
+		<subscription_fee>1880</subscription_fee>
+		<suitable_for></suitable_for>
+		<max_magazines>4</max_magazines>		
+	</subscription>
+	
+	<subscription id="109">
+		<name>Regular Reader</name>
+		<per_derlivery>3</per_derlivery>
+		<duration>12</duration>
+		<deliveries>12</deliveries>
+		<total_books>36</total_books>
+		<membership_fee>200</membership_fee>
+		<delivery_charges>50</delivery_charges>
+		<refundable_security>750</refundable_security>
+		<subscription_fee>3560</subscription_fee>
+		<suitable_for></suitable_for>
+		<max_magazines>8</max_magazines>		
+	</subscription>
+	
+	<subscription id="110">
+		<name>Avid Reader</name>
+		<per_derlivery>6</per_derlivery>
+		<duration>3</duration>
+		<deliveries>3</deliveries>
+		<total_books>18</total_books>
+		<membership_fee>200</membership_fee>
+		<delivery_charges>100</delivery_charges>
+		<refundable_security>1500</refundable_security>
+		<subscription_fee>1800</subscription_fee>
+		<suitable_for></suitable_for>
+		<max_magazines>4</max_magazines>		
+	</subscription>
+	
+	<subscription id="111">
+		<name>Avid Reader</name>
+		<per_derlivery>6</per_derlivery>
+		<duration>6</duration>
+		<deliveries>6</deliveries>
+		<total_books>36</total_books>
+		<membership_fee>200</membership_fee>
+		<delivery_charges>100</delivery_charges>
+		<refundable_security>1500</refundable_security>
+		<subscription_fee>3420</subscription_fee>
+		<suitable_for></suitable_for>
+		<max_magazines>8</max_magazines>		
+	</subscription>
+	
+	<subscription id="112">
+		<name>Avid Reader</name>
+		<per_derlivery>6</per_derlivery>
+		<duration>12</duration>
+		<deliveries>12</deliveries>
+		<total_books>72</total_books>
+		<membership_fee>200</membership_fee>
+		<delivery_charges>100</delivery_charges>
+		<refundable_security>1500</refundable_security>
+		<subscription_fee>6480</subscription_fee>
+		<suitable_for></suitable_for>
+		<max_magazines>12</max_magazines>		
+	</subscription>
+	
+</Subscriprion_Plans>

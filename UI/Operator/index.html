@@ -1,0 +1,60 @@
+<!doctype html>
+<html ng-app="ui.bootstrap.demo">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js"></script>
+    <script src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+    <script src="C:/Users/hp pavilion/Desktop/BIBLIOPHILE UI/ShowHideText/example.js"></script>
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+<div ng-controller="CollapseDemoCtrl">
+	<button class="btn btn-default" ng-click="isCollapsed = !isCollapsed">Hello Operator!! Check Your Privilege </button>
+	<hr>
+	<div collapse="isCollapsed">
+		<div class="well well-lg">
+		<section>
+        <ul ng-init="tab = 1">
+            <li ng-class="{active:tab===1}"> 
+                <a href ng-click="tab = 1">Add/Update/Delete Books</a>    
+            </li>
+            <li ng-class="{active:tab===2}"> 
+                <a href ng-click="tab = 2">Add/Update/Delete Subscription Plan</a> 
+            </li>
+            <li ng-class="{active:tab===3}"> 
+                <a href ng-click="tab = 3">Subscription History</a> 
+            </li>
+             <li ng-class="{active:tab===4}"> 
+                <a href ng-click="tab = 4">Send e-mail alerts</a> 
+            </li>
+             <li ng-class="{active:tab===5}"> 
+                <a href ng-click="tab = 5">Delivery/return/cancel requests</a> 
+            </li>
+             <li ng-class="{active:tab===6}"> 
+                <a href ng-click="tab = 6">Pending/closed/cancelled status</a> 
+            </li>
+			<li ng-class="{active:tab===7}"> 
+                <a href ng-click="tab = 7">Deliver Book</a> 
+            </li>
+			<li ng-class="{active:tab===8}"> 
+                <a href ng-click="tab = 8">Generate PDF</a> 
+            </li>
+            <br><br>
+            <p ng-show="tab === 1">You can Add/Update/Delete Book</p>
+            <p ng-show="tab === 2">You can Add/Update/Delete Subscription Plan</p>
+            <p ng-show="tab === 3">View Subscription History</p>
+			<p ng-show="tab === 4">Please Send e-mail alerts from here</p>
+			<p ng-show="tab === 5">View delivery/return/cancel requests</p>
+			<p ng-show="tab === 6">View pending/closed/cancelled status</p>
+			<p ng-show="tab === 7">Deliver Book</p>
+			<p ng-show="tab === 8">Generate PDF</p>
+			
+			
+        </ul>        
+    </section> 
+		
+		</div> 
+	</div>
+</div>
+  </body>
+</html>

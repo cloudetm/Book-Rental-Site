@@ -1,0 +1,2 @@
+BookId,Title,Isbn,Description,Rating,Author,Image,Genre,PublishedOn,Publisher,Status
+1,"Classical Mythology","0195153448","Lorem Ipsum",4.5,"Mark P. O. Morford","http://images.amazon.com/images/P/0195153448.01.LZZZZZZZ.jpg","fantasy","2002","Oxford University Press","true"

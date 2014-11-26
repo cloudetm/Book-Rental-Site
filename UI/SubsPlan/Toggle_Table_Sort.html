@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Subscription Plans Toggle</title>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="subController.js"></script>
+<script src="tsort.min.js"></script>
+<link rel="stylesheet" href="style.css" type="text/css" />
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('table.tableSorter').tableSort();
+	});
+</script>
+</head>
+<body ng-app>
+<div ng-controller='subController'>
+<table class="tableSorter">
+	<tr>
+		<th>S.No.</th>
+		<th>Name</th>
+		<th>Books per Delivery</th>
+		<th>Duration</th>
+		<th>Deliveries</th>
+		<th>Total Books</th>
+		<th>Membership Fees</th>
+		<th>Delivery Charges</th>
+		<th>Refundable Security Deposit</th>
+		<th>Subscription Fee</th>
+		<th>Suitable For</th>
+		<th>Magazines</th>		
+	</tr>
+    
+	<tr ng-repeat='plan in plans' align="center">
+		<td>{{plan.id}}</td>
+		<td>{{plan.name}}</td>
+		<td>{{plan.per_derlivery}}</td>
+		<td>{{plan.duration}}</td>
+		<td>{{plan.deliveries}}</td>
+		<td>{{plan.total_books}}</td>
+		<td>{{plan.membership_fee}}</td>
+		<td>{{plan.delivery_charges}}</td>
+		<td>{{plan.refundable_security}}</td>
+	    <td>{{plan.subscription_fee}}</td>
+	    <td>{{plan.suitable_for}}</td>
+		<td>{{plan.max_magazines}}</td>	
+	</tr>
+</tbody>
+</table>
+</div> 
+</body>
+</html>
